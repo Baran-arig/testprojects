@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::vector<std::string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    std::vector<std::string> msg {"hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
     for(auto wrd: msg)
     {
         std::cout << wrd << " ";
